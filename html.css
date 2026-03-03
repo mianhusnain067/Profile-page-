@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    display: flex;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.left-section {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.profile-pic {
+    position: relative;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.change-photo {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+}
+
+h4 {
+    margin: 20px 0 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.left-section p {
+    font-size: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.right-section {
+    width: 70%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.designation {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.ranking {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.edit-btn {
+    padding: 6px 12px;
+    border: none;
+    background: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tabs {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs span {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    border-bottom: 2px solid #3498db;
+    color: #3498db;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.blue {
+    color: #3498db;
+}

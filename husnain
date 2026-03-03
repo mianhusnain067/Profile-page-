@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="left-section">
+        <div class="profile-pic">
+            <img src="images/profile.jpg" alt="Profile Photo">
+            <div class="change-photo">Change Photo</div>
+        </div>
+
+        <div class="work-links">
+            <h4>WORK LINK</h4>
+            <p>Website Link</p>
+            <p>Bootsnipp Profile</p>
+            <p>Bootply Profile</p>
+        </div>
+
+        <div class="skills">
+            <h4>SKILLS</h4>
+            <p>Web Designer</p>
+            <p>Web Developer</p>
+            <p>WordPress</p>
+            <p>WooCommerce</p>
+            <p>PHP, .Net</p>
+        </div>
+    </div>
+
+    <div class="right-section">
+        <div class="header">
+            <div>
+                <h2>Kshiti Ghelani</h2>
+                <p class="designation">Web Developer and Designer</p>
+                <p class="ranking">RANKINGS: 8/10</p>
+            </div>
+            <button class="edit-btn">Edit Profile</button>
+        </div>
+
+        <div class="tabs">
+            <span class="active">About</span>
+            <span>Timeline</span>
+        </div>
+
+        <div class="details">
+            <div class="row">
+                <span>User Id</span>
+                <span class="blue">Kshiti123</span>
+            </div>
+            <div class="row">
+                <span>Name</span>
+                <span>Kshiti Ghelani</span>
+            </div>
+            <div class="row">
+                <span>Email</span>
+                <span class="blue">kshitighelani@gmail.com</span>
+            </div>
+            <div class="row">
+                <span>Phone</span>
+                <span class="blue">123 456 7890</span>
+            </div>
+            <div class="row">
+                <span>Profession</span>
+                <span class="blue">Web Developer and Designer</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
